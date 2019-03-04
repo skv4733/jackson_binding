@@ -6,7 +6,7 @@ public class Patient
 		private String firstName;
 		private String lastName;
 		private String dateOfBirth;
-		private String insurnaceId;
+		private String insuranceId;
 		private String primaryPhysician;
 		private String address;
 		private String city;
@@ -30,9 +30,9 @@ public class Patient
 				return dateOfBirth;
 			}
 
-		public String getInsurnaceId()
+		public String getinsuranceId()
 			{
-				return insurnaceId;
+				return insuranceId;
 			}
 
 		public String getPrimaryPhysician()
@@ -85,9 +85,9 @@ public class Patient
 				this.dateOfBirth = dateOfBirth;
 			}
 
-		public void setInsurnaceId(String insurnaceId)
+		public void setinsuranceId(String insuranceId)
 			{
-				this.insurnaceId = insurnaceId;
+				this.insuranceId = insuranceId;
 			}
 
 		public void setPrimaryPhysician(String primaryPhysician)
@@ -129,7 +129,7 @@ public class Patient
 		public String toString()
 			{
 				return "Patient [firstName=" + firstName + ", lastName=" + lastName + ", dateOfBirth=" + dateOfBirth
-						+ ", insurnaceId=" + insurnaceId + ", primaryPhysician=" + primaryPhysician + ", address="
+						+ ", insuranceId=" + insuranceId + ", primaryPhysician=" + primaryPhysician + ", address="
 						+ address + ", city=" + city + ", state=" + state + ", zip=" + zip + ", phone=" + phone + "]";
 			}
 

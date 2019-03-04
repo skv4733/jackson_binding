@@ -7,7 +7,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class WriteValue
 	{
-	    public static void main(String args[])
+	    public static void main1(String args[])
 	        {
 	            ObjectMapper mapper = new ObjectMapper();      
 	            try{
@@ -19,7 +19,6 @@ public class WriteValue
 	                patient.setFirstName("Jean-Marc");
 	                patient.setLastName("Julien");
 	                patient.setDateOfBirth("1991-02-03");
-	                patient.setInsurnaceId("2345678901");
 	                patient.setPrimaryPhysician("7654321555");
 	                patient.setAddress("555 Main Street");
 	                patient.setCity("Chicago");
@@ -30,7 +29,7 @@ public class WriteValue
 	                vitalsArray[0].setDate("2018-01-01");
 	                vitalsArray[0].setHeight("70");
 	                vitalsArray[0].setWeight("150");
-	                //vitalsArray[0].setBmi("20.1");//null - not set
+	               vitalsArray[0].setBmi("20.1");//null - not set
 	                vitalsArray[0].setA1c("4.0");
 	                vitalsArray[0].setBpSystolic("100");
 	                vitalsArray[0].setBpDiastolic("80");
