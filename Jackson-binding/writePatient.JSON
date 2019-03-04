@@ -1,0 +1,1 @@
+{"firstName":"Jean-Marc","lastName":"Julien","dateOfBirth":"1991-02-03","insurnaceId":"2345678901","primaryPhysician":"7654321555","address":"555 Main Street","city":"Chicago","state":"IL","zip":"54321","phone":"555-123-9876","vitals":[{"date":"2018-01-01","height":"70","weight":"150","bmi":null,"a1c":"4.0","bpSystolic":"100","bpDiastolic":"80"}]}
